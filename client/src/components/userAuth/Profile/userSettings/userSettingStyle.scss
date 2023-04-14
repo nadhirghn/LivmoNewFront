@@ -1,0 +1,98 @@
+.pinkGradientText {
+  background: linear-gradient(90deg, #F02F32 0%, #E22357 59.52%, #DA1D6C 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.blueGradientText {
+  background-image: linear-gradient(270deg, #0C1424 -0.34%, #143880 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.pinkGradientBgWhiteText {
+  background: linear-gradient(90deg, #F02F32 0%, #E22357 59.52%, #DA1D6C 100%);
+  -webkit-text-fill-color: white;
+}
+
+.blueGradientBg {
+  background: linear-gradient(270deg, #0C1424 -0.34%, #143880 100%);
+}
+
+.profilePictureImage{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.titleFont {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.subTitleFont {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.textFieldsBox{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.CSTitles{
+  width: 40%;
+  border-bottom: 1px solid;
+}
+
+.sessionBox{
+  width: 70%;
+  min-width: 400px;
+  box-shadow: 1.84246px 0.921228px 4.60614px 1.84246px rgba(0, 0, 0, 0.4);
+  border-radius: 13.8184px;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contactInfoBox img{
+  margin-right: 50px;
+  width: 70px;
+}
+
+.contactInfoBox{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.contactHelpBox{
+  box-shadow: 1.53777px 0.768883px 3.84441px 1.53777px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  width: 80%;
+  height: auto;
+}
+
+.contactHelpBoxImage{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;
+  object-position: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.contactHelpBoxImageLogo{
+  object-fit: cover;
+  object-position: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+

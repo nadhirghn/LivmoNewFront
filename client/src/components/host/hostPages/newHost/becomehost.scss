@@ -1,0 +1,51 @@
+.heroo {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../../../public/images/hero2.png') center/cover ;
+}
+
+
+  
+  /* Avatar */
+  .avat {
+   
+    margin-bottom: 0;
+    height: 6rem;
+    width: 6rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+  }
+    
+  .avat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     
+  }
+  
+  .rounded-circle {
+    border-radius: 50% !important;
+  
+  }
+
+
+  .custom-file-label {
+    width: 65%;
+  }
+
+
+  .labeel {
+    background-color: #DA1D6C;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+  }
+  
+  #file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+  }

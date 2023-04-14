@@ -1,0 +1,248 @@
+.pinkGradientText {
+  background: linear-gradient(90deg, #F02F32 0%, #E22357 59.52%, #DA1D6C 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.blueGradientText {
+  background-image: linear-gradient(270deg, #0C1424 -0.34%, #143880 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.pinkGradientBgWhiteText {
+  background: linear-gradient(90deg, #F02F32 0%, #E22357 59.52%, #DA1D6C 100%);
+  -webkit-text-fill-color: white;
+}
+
+.tagItem {
+  width: auto;
+  height: 30px;
+  padding: 2px;
+  text-transform: none;
+  border-radius: 11px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.titleFont {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.importantItemTextFont {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0C1424;
+  line-height: 19px;
+}
+
+.normalTextFont {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0C1424;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+}
+
+.itemTitleFont {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0C1424;
+}
+
+.itemsBoxRounded {
+  width: 1124px;
+  height: 377px;
+  background: white;
+  box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  /*padding: 20px;*/
+}
+
+.itemsBoxRoundedRightImage {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  object-fit: cover;
+}
+
+.detailsTextFont {
+  color: #00AAF2;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.itemsBoxRoundedLeftBox {
+  width: 70%;
+  padding: 32px;
+}
+
+.itemsBoxRoundedRightBox {
+  height: 100%;
+  width: 30%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.itemsBoxRoundedBlueBoxTextFont {
+  color: white;
+  padding-top: 30%;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.1em;
+}
+
+.buttonStyleRadius11 {
+  width: 135px;
+  height: 48px;
+  box-shadow: 1.57533px 0.787666px 3.93833px 1.57533px rgba(0, 0, 0, 0.4);
+  border-radius: 11.815px;
+}
+
+.merchantServiceBox {
+  margin-left: 20%;
+  width: 663px;
+  height: 294px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-image: repeating-linear-gradient(70deg, #F02F32, #E22357 30px, transparent 30px, transparent 60px, #DA1D6C 60px), repeating-linear-gradient(160deg, #F02F32, #E22357 30px, transparent 30px, transparent 60px, #DA1D6C 60px), repeating-linear-gradient(70deg, #F02F32, #E22357 30px, transparent 30px, transparent 60px, #DA1D6C 60px), repeating-linear-gradient(160deg, #F02F32, #E22357 30px, transparent 30px, transparent 60px, #DA1D6C 60px);
+  background-size: 3px 100%, 100% 3px, 3px 100%, 100% 3px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.plusImage {
+  margin-top: 8%;
+  margin-left: 43%;
+  margin-bottom: 30px;
+}
+
+.hostAddExperienceText {
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 39px;
+}
+
+.divider {
+  width: 100%;
+  border-top: 3px solid #bbb;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hostFavouriteItem {
+  width: 326px;
+  height: 375px;
+  margin: 15px;
+}
+
+.hostFavouriteItem img {
+  width: 100%;
+  height: 333px;
+  object-fit: cover;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.hostFavouriteItemLocationPriceFont {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0C1424;
+  letter-spacing: 0.2em;
+}
+
+.hostFavouriteItemLodgingTypeFont {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0C1424;
+  letter-spacing: 0.2em;
+}
+
+.hostFavouriteItemNameFont {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.favouriteHeart {
+  color: #F02F32;
+  position: absolute;
+  right: 0px;
+  margin: 15px;
+}
+
+.arrayEmptyBox {
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.profilePictureImage {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.verifiedUserIconStyle {
+  width: 30px;
+  height: 30px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.msgUserButtonImage {
+  width: 25px;
+  height: 25px;
+}
+
+.hostProfilePictureBig {
+  width: 196px;
+  height: 196px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileBoxes {
+  width: 371px;
+  height: 189px;
+  box-shadow: 1.53777px 0.768883px 3.84441px 1.53777px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.verificationBoxItems {
+  display: flex;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.2em;
+}
+
+.verificationBoxItems img {
+  margin-right: 30px;
+}
+
+.learnMoreText {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+
+/*# sourceMappingURL=merchantStyle.css.map */

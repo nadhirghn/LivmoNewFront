@@ -1,0 +1,25 @@
+.adventurer-hero{
+    background: linear-gradient(#00000033, rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/adventurer-hero.png') center/cover;
+}
+
+.merchant-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/merchant-hero.png') center/cover;
+    height: 100%;
+}
+
+.host-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/host-hero.png') center/cover;
+    height: 100%;
+}
+
+.titlee {
+    margin-top: 21rem;
+    color: white;
+    font-size: 30px;
+
+}
+
+

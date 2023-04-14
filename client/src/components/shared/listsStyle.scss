@@ -1,0 +1,126 @@
+.pinkGradientText {
+  background: linear-gradient(90deg, #F02F32 0%, #E22357 59.52%, #DA1D6C 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.blueGradientText {
+  background-image: linear-gradient(270deg, #0C1424 -0.34%, #143880 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.pinkGradientBgWhiteText {
+  background: linear-gradient(90deg, #F02F32 0%, #E22357 59.52%, #DA1D6C 100%);
+  -webkit-text-fill-color: white;
+}
+
+.blueGradientBgWhiteText {
+  background-image: linear-gradient(270deg, #0C1424 -0.34%, #143880 100%);
+  -webkit-text-fill-color: white;
+}
+
+.filterBox{
+  width: 60%;
+  margin: 10%;
+}
+
+.selectFilter{
+  width: 200px;
+  height: 56px;
+  text-align: center;
+}
+
+.priceBox{
+  height: 200px;
+  width: 450px;
+  padding: 30px;
+}
+
+.item{
+  width: 326px;
+  height: 375px;
+  margin: 15px;
+}
+
+.item img{
+  width: 100%;
+  height: 333px;
+  object-fit: cover;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.titleFont {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.subTitleFont{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.roundedShadowedBox{
+  background: white;
+  box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.detailsTextFont {
+  color: #00AAF2;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.detailsGalleryImage{
+  width: 1000px;
+  height: 600px;
+
+  object-fit: cover;
+
+  border-radius: 18px;
+}
+
+.modalStyle{
+  position: absolute;
+  margin-top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border: 2px solid #fff;
+  boxShadow: 24;
+  width: 95%;
+}
+
+.modalImage{
+  width: 440px;
+  height: 260px;
+  border-radius: 25px;
+}
+
+.talkingAboutItBox{
+  width: 437px;
+  height: 212px;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0.861094px 0.861094px 6.02766px 2.58328px rgba(0, 0, 0, 0.25);
+  border-radius: 17.2219px;
+}
+
+.talkingAboutItPhoto{
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+}
+
+.talkingAboutItText{
+  font-size: 16px;
+}
+
+.talkingAboutItTextDate{
+  color: #292929;
+}
+
+
+

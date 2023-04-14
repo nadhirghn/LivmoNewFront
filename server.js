@@ -74,10 +74,19 @@ app.use(limiter)
 app.use(hpp())
 
 app.get('/test', (req, res) => {
-    // const User = new UserModel({
-    //     email: 'siki@gmail.com',
-    //     password: 'testtest'
-    // })
-    // User.save().then(user => console.log(user))
+    const User = new UserModel({
+         email: 'siki@gmail.com',
+        password: 'testtest'
+    })
+    User.save().then(user => console.log(user))
     res.send("454646545646")
+})
+
+app.get('/test7', (req, res) => {
+    const User = new UserModel({
+         email: 'zouba@gmail.com',
+        password: 'testtestaa'
+    })
+    User.save().then(user => console.log(user))
+    res.send("123456789")
 })

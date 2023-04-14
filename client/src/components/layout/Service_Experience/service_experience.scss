@@ -1,0 +1,29 @@
+.restaurants-hero {
+    background: linear-gradient(#00000033, rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/restaurantshero.png') center/cover;
+}
+
+.lodging-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/lodginghero.png') center/cover;
+    height: 100%;
+}
+
+.transport-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/transporthero.png') center/cover;
+    height: 100%;
+}
+.experience-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../../../../public/images/experiencehero.png') center/cover;
+    height: 100%;
+}
+.titlee {
+    margin-top: 21rem;
+    color: white;
+    font-size: 30px;
+
+}
+
+

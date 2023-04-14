@@ -1,0 +1,190 @@
+#cart {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  
+  
+  /* Home page */
+  #products_heading {
+    margin-top: 1.8rem;
+  }
+  
+  .cardd {
+    height: 100%;
+  }
+  
+  .cardd-title a {
+    color: #2e2e2e;
+  }
+  
+  .cardd-title a:hover {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  
+  .cardd-body {
+    padding-left: 0;
+  }
+  
+  .cardd-text {
+    font-size: 1.4rem;
+  }
+  
+  #view_btn {
+    background-color: #e91e63;
+    color: white;
+  }
+  
+  .cardd-img-top {
+    width: 200px;
+    height: 150px;
+  }
+  
+  
+  .rating-outer {
+      display: inline-block;
+      position: relative;
+      font-family: FontAwesome;
+      color: #fdcc0d;
+    }
+    
+    .rating-outer::before {
+      content: '\f006 \f006 \f006 \f006 \f006';
+    }
+    
+    .rating-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+    }
+    
+    .rating-inner::before {
+      content: '\f005 \f005 \f005 \f005 \f005';
+      color: #f8ce0b;
+    }
+  
+    /* Pagination */
+  .page-item.active .page-link {
+    background-color: #e91e63;
+    border-color: #e91e63;
+  }
+  
+  .page-link {
+    color: #e91e63;
+  }
+  
+  .page-link:hover {
+    color: #e91e63;
+  }
+  
+  
+  
+    $roboto:'Roboto';
+    $cursive_font:'Satisfy';
+    $round:'Varela Round';
+    $cta:#e91e63;
+    $bg:#272b34;
+    $light_bg:#2b3039;
+    $text:#2d343e;
+    $white:#fff;
+    
+  
+     .dFlex{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       
+     }
+  
+  
+     .main_content{
+       @extend .dFlex;
+       position:relative;
+       width:70%;
+       height:100%;
+       margin:50px auto;
+       padding:50px 0 0;
+       box-sizing: border-box;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       h3{
+         position:absolute;
+         left:20rem;
+         top:0;
+         color:$text;
+         font-size:10.5vw;       
+       }
+       .cardz{
+         width:30%;
+         border-radius: 15px;
+         @extend .dFlex;
+         flex-direction: column;
+         position:relative;
+         transform:scale(.8);
+         transition:all .3s ease-in-out;
+         margin-bottom:50px;
+         .cardz_img{
+           margin-top:-5vw;
+           img{
+             width:200px;
+           }
+         }
+         .cardz_header{
+           @extend .dFlex;
+           flex-direction: column;
+           color:$white;
+           margin:25px 0;
+           h2{
+             font-size:18px;
+           }
+           p{
+             font-size:14px;
+             text-align: center;
+             color:rgba($white, .3);
+             margin:8px 0;
+           }
+           .price{
+             font-size:25px;
+             color:$cta;
+             span{
+               font-size:15px;
+               display:inline-block;
+               vertical-align: top;
+             }
+           }
+         }
+       }
+       .cardz:hover{
+         background-color:$light_bg;
+         transform: scale(1.1);
+         cursor:pointer;
+       }
+       .cardz:hover{
+        .btn{
+          background-color:$cta;
+          color:$white;
+        }      
+      }
+  
+    }
+    .btnz{
+      width:130px;
+      height:35px;
+      font-size:14px;
+      border-radius: 35px;
+      background-color:$text;
+      color:rgba($white, .5);
+      @extend .dFlex;
+      cursor:pointer;
+      position:relative;
+      transition:background-color .3s ease;
+      overflow:hidden;
+    }
+  
+   
+  
+  

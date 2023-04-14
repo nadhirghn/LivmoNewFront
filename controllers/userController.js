@@ -31,16 +31,18 @@ exports.verifyUser  = catchAsyncErrors(async (req, res, next) => {
 // Register a user   => /api/v1/register
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
 
+    console.log(req.body)
+
     const characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     let activationCode = "";
     for (let i = 0; i < 25; i++) {
         activationCode += characters[Math.floor(Math.random() * characters.length)];
     }
-    const result = await cloudinary.v2.uploader.upload(req.body.avatar, {
-        folder: 'avatars',
-        width: 150,
-        crop: "scale"
-    })
+    // const result = await cloudinary.v2.uploader.upload(req.body.avatar, {
+    //     folder: 'avatars',
+    //     width: 150,
+    //     crop: "scale"
+    // })
 
     const { fname, lname, phone, birthday, email, country, password } = req.body;
 
@@ -53,38 +55,40 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
         country,
         password,
         activationCode: activationCode,
-        avatar: {
-            public_id: result.public_id,
-            url: result.secure_url
-        }
+        // avatar: {
+        //     public_id: result.public_id,
+        //     url: result.secure_url
+        // }
+    })
+
+    user.save().then(saved => {
+        res.status(200).json({user: saved});
     })
 
         // Create reset password url
-        const confirmUrl = `${process.env.FRONTEND_URL}/confirm/${user.activationCode}`;
+        // const confirmUrl = `${process.env.FRONTEND_URL}/confirm/${user.activationCode}`;
 
         const message = `To activate your account, please click on this link:\n\n${confirmUrl}\n\nIf you have not requested this email, then ignore it.`
     
-        try {
-    
-            await sendEmail({
-                email: user.email,
-                subject: 'livmo conform your account',
-                message
-            })
-    
-            res.status(200).json({
-                success: true,
-                message: `Email sent to: ${user.email}`
-            })
-    
-        } catch (error) {
-        
-
-            return next(console.log(error));
-        }
-        
-        await user.save();
-
+        // try {
+        //     await sendEmail({
+        //         email: user.email,
+        //         subject: 'livmo conform your account',
+        //         message
+        //     })
+        //     res.status(200).json({
+        //         success: true,
+        //         message: `Email sent to: ${user.email}`
+        //     })
+        // } catch (error) {
+        //     return next(console.log(error));
+        // }
+        // try {
+        //     const savedUser = await user.save();
+        //     res.status(201).json({user: savedUser});
+        // } catch(err) {
+        //     res.status(500).json({error: err.message});
+        // }
 
 })
    

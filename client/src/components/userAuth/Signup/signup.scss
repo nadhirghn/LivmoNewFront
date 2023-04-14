@@ -1,0 +1,51 @@
+
+  
+  /* Avatar */
+  .avatar {
+    display: inline-block;
+    margin-bottom: 0;
+    height: 6rem;
+    width: 6rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+  }
+
+  .loginimg {
+    width: 200px;
+    height: 60px;
+}
+
+
+  
+  .avatarr img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+     
+  }
+  
+  .rounded-circle {
+    border-radius: 50% !important;
+  
+  }
+
+
+  .custom-file-label {
+    width: 65%;
+    margin-left: 17%;
+  }
+  
+.grid-child-element { 
+
+  height: 100px;
+float: left;
+
+}
+.grid-child { 
+
+  height: 100px;
+float: right;
+
+}
